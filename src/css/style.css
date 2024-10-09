@@ -1,0 +1,108 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #696969;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.caixa-conteudo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.caixa-texto {
+  width: 650px;
+}
+h2 {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 600;
+}
+span {
+  color: darkgoldenrod;
+  font-weight: 900;
+  font-size: 37px;
+}
+p {
+  font-size: 14px;
+}
+button {
+  background-color: darkgoldenrod;
+  color: #ffff;
+  border-radius: 40px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+button:hover {
+  background-color: darkkhaki;
+}
+
+.caixa-imagem {
+  display: flex;
+  justify-content: center;
+  margin-left: 25rem;
+}
+.figu {
+  cursor: pointer;
+  margin: 15px;
+  transition: 1s;
+}
+.figu:hover {
+  transform: translateY(-25px);
+}
+.caixa-imagem1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 70px;
+}
+
+.caixa-menu {
+  display: flex;
+  justify-content: center;
+}
+.icons {
+  cursor: pointer;
+  margin: 8px;
+  margin-top: 30px;
+
+  transition: 1s;
+}
+.icons:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+}
+
+.politic-footer-mobile {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-left: 10rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.politic-footer-p {
+  margin: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.circulo {
+  width: 100%;
+  height: 100%;
+  background: darkgoldenrod;
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip-path: circle(450px at right 600px);
+  z-index: -1;
+  margin-top: 10;
+}

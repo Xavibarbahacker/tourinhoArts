@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site com Música</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+
+    <title>Tourinho Arts</title>
+  </head>
+  <div class="circulo"></div>
+  <img
+    src="./src/images/background.jpg"
+    alt="logo"
+    width="120px"
+    style="border-radius: 50%"
+  />
+  <div class="caixa-conteudo">
+    <div class="caixa-texto">
+      <h2>
+        Na <span>Tourinho Arts,</span> transformamos você com criatividade.
+      </h2>
+      <p>
+        Somos especialistas em personalização de canecas, cadernos, camisetas e
+        quebra-cabeças, oferecendo produtos exclusivos que refletem a sua
+        identidade. Seja para presentear alguém especial, zoar seus amigos ou
+        para destacar sua marca. Nossos itens são cuidadosamente produzidos com
+        materiais de alta qualidade e com um toque artístico único e uma pitada
+        de zoeira. Cada peça é feita com atenção aos detalhes, garantindo que
+        suas ideias ganhem vida de forma criativa e impactante. Na Tourinho
+        Arts, a sua imaginação é o limite!
+      </p>
+
+      <a
+        href="https://wa.me/5521998023013?text=%22Ol%C3%A1!%20Obrigado%20por%20entrar%20em%20contato.%20"
+        target="_blank"
+      >
+        <button>Tire suas Dúvidas</button>
+      </a>
+
+      <div class="caixa-imagem">
+        <img
+          src="./src/images/image1.jpg"
+          class="figu"
+          width="100px"
+          style="border-radius: 50%"
+          onclick="trocarAcor('#FF69B4');trocarImagem('./src/images/image7.jpg')"
+        />
+        <img
+          src="./src/images/image2.jpg"
+          class="figu"
+          width="100px"
+          style="border-radius: 50%"
+          onclick="trocarAcor('#8B0000'); trocarImagem('./src/images/image1.jpg')"
+        />
+        <img
+          src="./src/images/image3.jpg"
+          class="figu"
+          width="100px"
+          style="border-radius: 50%"
+          onclick="trocarAcor('#32CD32'); trocarImagem('./src/images/image2.jpg')"
+        />
+        <img
+          src="./src/images/image4.jpg"
+          class="figu"
+          width="100px"
+          style="border-radius: 50%"
+          onclick="trocarAcor('#008B8B'); trocarImagem('./src/images/image3.jpg')"
+        />
+        <img
+          src="./src/images/image5.jpg"
+          class="figu"
+          width="100px"
+          style="border-radius: 50%"
+          onclick="trocarAcor('#D2691E'); trocarImagem('./src/images/image4.jpg')"
+        />
+        <img
+          src="./src/images/image6.jpg"
+          class="figu"
+          width="100px"
+          style="border-radius: 50%"
+          onclick="trocarAcor('#A0522D'); trocarImagem('./src/images/image5.jpg')"
+        />
+        <img
+          src="./src/images/image7.jpg"
+          class="figu"
+          width="100px"
+          style="border-radius: 50%"
+          onclick="trocarAcor('#FFFF00'); trocarImagem('./src/images/image6.jpg')"
+        />
+      </div>
+    </div>
+
+    <div class="caixa-imagem1">
+      <img
+        src="./src/images/image8.jpg"
+        class="copo"
+        width="300px"
+        style="border-radius: 100%"
+      />
+    </div>
+  </div>
+
+  <body>
+    <div class="caixa-menu"></div>
+    <a
+      href="https://wa.me/5521998023013?text=%22Ol%C3%A1!%20Obrigado%20por%20entrar%20em%20contato.%20"
+      target="_blank"
+    >
+      <img
+        src="./src/images/whatsapp.svg"
+        class="icons"
+        alt="icones das redes social"
+        width="37px"
+        style="border-radius: 50%"
+    /></a>
+
+    <a href="https://www.instagram.com/tourinhoarts7/" target="_blank">
+      <img
+        src="./src/images/instagram.svg"
+        class="icons"
+        alt="icones das redes social"
+        width="37px"
+        style="border-radius: 50%"
+    /></a>
+    <div class="politic-footer-mobile">
+      <p class="politic-footer-p">Politica de Privacidade</p>
+      <p class="politic-footer-p">Termos de uso</p>
+      <p class="politic-footer-p">Política de Cookies</p>
+      <p>&copy; 2024 Tourinho Arts. Todos os direitos reservados.</p>
+    </div>
+
+    <audio autoplay>
+      <source
+        src="./src/music/What So Not - Jaguar (Official Music Video).mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+  </body>
+  <script src="src/js/scripts.js"></script>
+</html>
